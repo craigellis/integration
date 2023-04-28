@@ -57,14 +57,10 @@ def create_stub(token,name):
 
 	return returned_id, returned_name
 
-	
-
-
-
 #Create the GO link
 def create_yourl(name):
 
-	yourls_token = "65a5df04d7"
+	yourls_token = "yourls_token". # talk to integration staff member for correct yourls token
 	auth0_long_url = f"https://sso.oreilly.com/authorize?client_id=tjyknUueLDUJgHQkwL3eEF4XeEhK9veC&protocol=oauth2&response_type=code&scope=openid%20profile%20email&redirect_uri=https://api.oreilly.com/api/v1/auth/oauth/complete/enterprise/&connection={name}"
 	yourls_api_url = f"https://go.oreilly.com/yourls-api.php?signature={yourls_token}&action=shorturl&keyword={name}&format=json&url={auth0_long_url}"
 
