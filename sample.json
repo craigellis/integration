@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "id": "https://www.safaribooksonline.com/api/v1/book/9780113315383/",
+      "archive_id": "9780113315383",
+      "ourn": "urn:orm:book:9780113315383",
+      "isbn": "9780113315383",
+      "last_modified_time": "2023-04-29T22:33:48.653Z",
+      "issued": "2017-04-01T00:00:00Z",
+      "format": "book",
+      "content_format": "mockingbird-v2-id",
+      "authors": ["AXELOS"],
+      "publishers": ["TSO"],
+      "academic_excluded": false,
+      "language": "fr",
+      "title": "ITIL Practitioner Guidance (French Translation)",
+      "description": "<span><p>This guidance is the essential reference text which accompanies the ITIL Practitioner qualification. Fully integrated with the ITIL Practitioner syllabus, this publication is also a practical guide that helps IT service management (ITSM) professionals turn ITIL theory into practice through case studies, worksheets, templates and scenarios.</p></span>",
+      "url": "https://learning.oreilly.com/api/v1/book/9780113315383/",
+      "web_url": "/library/view/itil-practitioner-guidance/9780113315383/",
+      "source": "application/pdf",
+      "content_type": "book",
+      "virtual_pages": 490,
+      "duration_seconds": -1,
+      "has_assessment": false,
+      "timestamp": "2023-04-29T22:34:02.917Z",
+      "average_rating": 0,
+      "number_of_followers": 0,
+      "number_of_items": 0,
+      "number_of_reviews": 0,
+      "popularity": 569623222,
+      "report_score": 0,
+      "cover_url": "https://learning.oreilly.com/library/cover/9780113315383/",
+      "date_added": "2020-10-29T18:55:32.477Z",
+      "topics": ["ab61e8ca-eaf3-484a-b286-f41826322c0b"],
+      "topics_payload": [
+        {
+          "uuid": "ab61e8ca-eaf3-484a-b286-f41826322c0b",
+          "slug": "itil-foundation-exam",
+          "name": "ITIL Foundation Exam",
+          "score": null
+        }
+      ],
+      "minutes_required": 563.5
+    }
+  ],
+  "facets": {
+    "facet_queries": {
+      "{!ex=format}(format:video AND title_unstemmed:\"Learning Path: .*\")": 0
+    },
+    "facet_fields": {
+      "format": ["book", 1],
+      "subjects": [],
+      "topic_uuids": ["ab61e8ca-eaf3-484a-b286-f41826322c0b", 1],
+      "publishers_exact": ["TSO", 1],
+      "language": ["fr", 1],
+      "sharing_status": [],
+      "expert_playlist": [],
+      "video_classification": [],
+      "certification_name_exact": [],
+      "certification_vendor_name_exact": [],
+      "topics": ["ITIL Foundation Exam", 1]
+    },
+    "facet_ranges": {},
+    "facet_intervals": {
+      "average_rating": {
+        "no_stars": 1,
+        "zero_stars": 0,
+        "one_star": 0,
+        "two_stars": 0,
+        "three_stars": 0,
+        "four_stars": 0,
+        "five_stars": 0
+      },
+      "issued": { "last_two_years": 0, "last_year": 0, "last_six_months": 0 }
+    },
+    "facet_heatmaps": {}
+  },
+  "total": 1,
+  "meta": { "query_identifier": "6ec660c4-4f00-467c-beb1-ad3153fbd5c2" },
+  "page": 0,
+  "previous": null,
+  "next": null
+}
