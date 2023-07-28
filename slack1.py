@@ -34,7 +34,10 @@ def get_activity():
 
 
 # Replace [webhook_url] with your actual webhook URL
-webhook_url = "https://hooks.slack.com/services/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"
+# webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = "https://hooks.slack.com/services/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"
+
+
 
 text_to_send =  get_activity()
 
